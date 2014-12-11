@@ -40,12 +40,12 @@ varnumber,varname,DataType,Fieldwidth,format,varTitle
 10211,POSTSEC,N,2,Disc,Primarily postsecondary indicator
 10216,PSEFLAG,N,2,Disc,Postsecondary institution indicator
 10221,PSET4FLG,N,2,Disc,Postsecondary and Title IV institution indicator
-15055,RPTMTH,N,2,Disc,"Reporting method for student charges, graduation rates, retention rates and student financial aid"
+15055,RPTMTH,N,2,Disc,Reporting method
 16081,IALIAS,A,2000,Alpha,Institution name alias
 15210,INSTCAT,N,2,Disc,Institutional category
 15215,CCBASIC,N,2,Disc,Carnegie Classification 2010: Basic
-15216,CCIPUG,N,2,Disc,Carnegie Classification 2010: Undergraduate Instructional Program
-15217,CCIPGRAD,N,2,Disc,Carnegie Classification 2010: Graduate Instructional Program
+15216,CCIPUG,N,2,Disc,Carnegie Classification 2010: Undergraduate Instructional
+15217,CCIPGRAD,N,2,Disc,Carnegie Classification 2010: Graduate Instructional
 15218,CCUGPROF,N,2,Disc,Carnegie Classification 2010: Undergraduate Profile
 15219,CCENRPRF,N,2,Disc,Carnegie Classification 2010: Enrollment Profile
 15220,CCSIZSET,N,2,Disc,Carnegie Classification 2010: Size and Setting
