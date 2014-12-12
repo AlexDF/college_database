@@ -2,6 +2,7 @@
   ini_set( 'display_startup_errors', 1 );
   ini_set( 'display_errors', 1 );
   error_reporting( -1 );
+  //ini_set('memory_limit', '512M');
 
   function my_autoloader( $class ) {
     $filepath = 'class/' . str_replace( "\\", "/", $class ) . '.class.php';
@@ -10,8 +11,13 @@
 
   spl_autoload_register( 'my_autoloader' );
 
-  $headings = CsvController\Csv::getFriendlyHeadings( 'data/2011/hd2011-headings.csv', TRUE, 6 );
+  if(!isset($_GET['pagetype'])) {
+    $_GET['pagetype'] = "Index";
+  }
 
-  print_r( $headings );
+  HtmlController\Html::render($_GET['pagetype']);
+
+  
+
 
 ?>

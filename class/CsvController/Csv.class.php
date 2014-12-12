@@ -53,7 +53,6 @@
           if( $ignore_first_row ) {
             $ignore_first_row = FALSE;
           } else {
-            //$record = array_combine($headings, $row);
             $records[] = $row;
           }
         } // end while

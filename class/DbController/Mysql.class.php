@@ -29,7 +29,7 @@ class Mysql implements DbInterface {
     $query .= ')';
     
     $this->connection->query($query);
-    print_r($this->connection->errorInfo());
+    //print_r($this->connection->errorInfo());
     
   }
 
