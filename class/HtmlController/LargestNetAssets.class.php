@@ -23,8 +23,6 @@
       }
       $table_output .= '</table>';
 
-      print_r($results);
-
       $this->buildPage($table_output);
 
     }

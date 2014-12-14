@@ -3,7 +3,7 @@
   namespace HtmlController;
 
   class Page {
-    public $header = "<html><head></head><body>";
+    public $header = "<!DOCTYPE html><html><head><link type='text/css' rel='stylesheet' href='css/style.css'></head><body>";
     public $footer = "</body></html>";
 
     public function buildPage($body) {

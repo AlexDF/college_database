@@ -16,7 +16,13 @@
 
         '<a href="index.php?pagetype=LargestNetAssets">' .
         'Which colleges have the largest amount of net assets?</a>' .
-        '<br><br>';
+        '<br><br>' .
+
+        '<a href="index.php?pagetype=NetAssetsPerStudent">' .
+        'Which colleges have the largest amount of net assets per student?</a>' .
+        '<br>' .
+
+        '<p>Which colleges have the largest amount of net assets per student?</p>';
 
       $this->buildPage($this->content); 
 
