@@ -22,7 +22,7 @@
         'Which colleges have the largest amount of net assets per student?</a>' .
         '<br>' .
 
-        '<p>Which colleges have the largest amount of net assets per student?</p>';
+        '<p>Which colleges have the largest percentage increase in enrollment between the years of 2011 and 2010?</p>';
 
       $this->buildPage($this->content); 
 
